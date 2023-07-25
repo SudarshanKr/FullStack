@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="POST" name="contactform">
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Register here</h2>
+        </div>
+        <div class="info">
+          <input class="fname" type="text" name="Full Name" placeholder="Full name">
+          <input type="text" name="Email" placeholder="Email">
+          <input type="text" name="Phone Number" placeholder="Phone number">
+          <select name="Course">
+            <option value="course-type" selected>Course type*</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BBA">BBA</option>
+            <option value="MBA">MBA</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+            <option value="B.Com LLB">B.Com LLB</option>
+            <option value="B.A LLB">B.A LLB</option>
+            <option value="B.Sc">B.Sc</option>
+            <option value="B.Sc. Computer Science">B.Sc. Computer Science</option>
+            <option value="B.Sc. Agriculture">B.Sc. Agriculture</option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox"><span>I agree to the <a href="">Privacy Poalicy for CGC Jhanjeri.</a></span>
+        </div>
+        <button type="submit" href="thankyou.html">Submit</button>
+      </form>
+</body>
+</html>
